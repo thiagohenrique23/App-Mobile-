@@ -10,7 +10,7 @@ export default function Header({ name }) {
             <View style={styles.content}>
                 <Text style={styles.username}>{name}</Text>
                 <TouchableOpacity activeOpacity={0.9} style={styles.buttonUser}>
-                    <Feather name="user" size={27} color="#000"/>
+                    <Feather name="user" size={27} color="#D3983D"/>
                 </TouchableOpacity>
             </View>
         </View>
@@ -19,7 +19,7 @@ export default function Header({ name }) {
 
 const styles = StyleSheet.create({
     container:{
-        backgroundColor: '#000000',
+        backgroundColor: '#D3983D',
         paddingTop: statusBarHeight,
         flexDirection: 'row',
         paddingStart: 16,
@@ -36,14 +36,14 @@ const styles = StyleSheet.create({
 
     username:{
         fontSize: 18,
-        color: '#D3983D',
+        color: '#000',
         fontWeight: 'bold'
     },
 
     buttonUser:{
         width: 44,
         height: 44,
-        backgroundColor: '#D3983D',
+        backgroundColor: '#000',
         justifyContent: 'center',
         alignItems: 'center',
         borderRadius: 44/2,
