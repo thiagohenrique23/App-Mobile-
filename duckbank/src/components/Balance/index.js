@@ -29,7 +29,7 @@ export default function Balance({ saldo, gastos }) {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#FFF',
+        backgroundColor: '#000',
         flexDirection: 'row',
         justifyContent: 'space-between',
         paddingStart: 18,
@@ -45,7 +45,7 @@ const styles = StyleSheet.create({
 
     itemTitle: {
         fontSize: 20,
-        color: '#000',
+        color: '#FFF',
     },
 
     content: {
@@ -54,7 +54,7 @@ const styles = StyleSheet.create({
     },
 
     currencySymbol: {
-        color: '#000',
+        color: '#FFF',
         marginRight: 6,
     },
 
